@@ -61,7 +61,7 @@ body {
 	color: #fff;
 	padding-bottom: 2em;
 	min-height: 100vh;
-	background: rgba(0, 0, 0, .7);
+	background: rgba(0, 0, 0, .6);
 	text-transform: uppercase;
 
 	a {
@@ -70,6 +70,7 @@ body {
 
 		&:hover {
 			text-decoration: none;
+			color: #d09d5d;
 		}
 	}
 
@@ -116,8 +117,8 @@ footer {
 	right: 0;
 
   .copyright {
-    padding-top: 0px;
-    text-align: left;
+    padding-top: 20px;
+		color: rgba(255, 255, 255, .5);
   }
 
   h3 {
@@ -135,7 +136,7 @@ footer {
     li {
       list-style: none;
 			display: inline-block;
-			margin-left: 10px;
+			margin: 0 10px;
     }
   }
 
