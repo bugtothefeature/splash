@@ -81,6 +81,10 @@ body {
 		background: none;
 		margin-top: 35vh;
 		padding: 20px;
+		@media all and (max-width:$grid-breakpoint) {
+			margin-top: 25vh;
+			font-size: 4vh;
+		}
 	}
 }
 
@@ -150,6 +154,11 @@ footer {
 		img {
 			width: 48px;
 			height: 48px;
+
+			@media all and (max-width:$grid-breakpoint) {
+				height: 40px;
+				width: 40px;
+			}
 		}
 
     &:hover {
