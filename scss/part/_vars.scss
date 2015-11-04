@@ -4,13 +4,9 @@ $nav-hover: #d5d5d5;
 $btn-color: #666;
 $footer-bg: #fbfbfb;
 
-$zindex-bg: 10;
-$zindex-content: 20;
-$zindex-border: 0;
+$zindex-ribbon: 1100;
 
 $nav-height: 90px;
 
 $grid-breakpoint: 768px !default;
-
-$hurme-regular: 'HurmeGeometricSans4-Regular', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;;
-$hurme-black: 'HurmeGeometricSans4-Black', 'Open Sans', 'Helvetica Neue', Arial ,sans-serif;
+$mobile-grid-breakpoint: 768px - 1 !default;
