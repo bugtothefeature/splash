@@ -65,7 +65,7 @@ body {
 	top:0;
 	left:0;
 	z-index:-1;
-	display: none;
+	display: block;
 
 	div {
 		position:absolute;
@@ -79,8 +79,31 @@ body {
 		background-position:center top;
 
 		&.active {
-			z-index:3
+			z-index:3;
+			animation: changeBg 16s infinite;
 		}
+	}
+}
+@keyframes changeBg {
+	0% {
+		opacity:0;
+		transform: translate3d(0,0,0);
+	}
+	40% {
+		opacity:0;
+		transform: translate3d(0,0,0);
+	}
+	50% {
+		opacity:1;
+		transform: translate3d(0,0,0);
+	}
+	90% {
+		opacity:1;
+		transform: translate3d(0,0,0);
+	}
+	100% {
+		opacity:0;
+		transform: translate3d(0,0,0);
 	}
 }
 
