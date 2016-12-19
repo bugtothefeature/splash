@@ -125,13 +125,30 @@ body {
 			color: #d09d5d;
 		}
 	}
+  
+  .button {
+    border: 2px solid #fff;
+    height: 126px;
+    width: 126px;
+    border-radius: 300px;
+    margin: 50px auto 0;
+    padding-top: 53px;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+  }
 
 	.main-txt {
 		font-family: 'HurmeGeometricSans4-Bold';
 		color: #fff;
 		font-size: 5vh;
 		background: none;
-		margin-top: 35vh;
+		margin-top: 25vh;
 		padding: 20px;
 		@media all and (max-width:$grid-breakpoint) {
 			margin-top: 25vh;
